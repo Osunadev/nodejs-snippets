@@ -2,7 +2,7 @@
   "name": "practice-nodejs",
   "version": "1.0.0",
   "description": "",
-  "main": "src/express/server.js",
+  "main": "src/api/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon main"
@@ -16,7 +16,10 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "got": "^11.5.0",
+    "hbs": "^4.1.1",
+    "mongoose": "^5.9.24",
     "nodemon": "^2.0.4",
+    "validator": "^13.1.1",
     "yargs": "^15.4.1"
   }
 }

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="header-title">Home Page</h1>
+      <!-- This 'name' variable is passed down by handlebars -->
+      <p>Welcome to my home page {{ name }}</p>
+    </header>
+    <!-- This is a partial, which is a reusable template -->
+    {{>footer}}
+  </body>
+</html>
